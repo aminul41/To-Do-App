@@ -1,6 +1,7 @@
 (function (global) {
   var handler = {
     init: function (options) {
+      console.log(options);
       const container = options.container;
       const props = options.props || {};
       const title = props.title || "Default Title"; // Fallback to 'Default Title' if no title is provided
